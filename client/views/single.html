@@ -2,18 +2,31 @@
     <div class='Char' n id={{char.Id}}>
         <div>
             <div class=' grow singlecard singleHero'>
+                <h1 class='cardName'>{{thisChar.Name}}</h1>
                 <div class="imgbacksingle">
                     <img class='main' src="{{thisChar.Image}}"></img>
                 </div>
+                
+                
                 <div class='textback'>
-                    <h2 class='user'>NAME </h2>
-                    <h3 class='username'>{{thisChar.Name}}</h3>
+
+                        <h2 class='message'>PRIMARY ATTRIBUTE</h2>
+                        <a ng-click="goToAtt(thisChar.Attribute)">
+                       <img class="attributeimage" ng-src="{{thisChar.AttributeImage}}"></img>
+                        </a>
+                    </div>
+                    <div class='textback'>
+                    <a ng-click="goToRole(thisChar.PrimaryRole)">
+                        <h2 class='message'> PRIMARY ROLE</h2>
+                        <h3 class='messagetext'> {{thisChar.PrimaryRole}} </h3>
+                    </a>
                 </div>
                 <div class='textback'>
-                    <a ng-click="goToRole(thisChar.Type)">
-                        <h2 class='message'>ROLE</h2>
-                        <h3 class='messagetext'> {{thisChar.Type}} </h3>
-                    </a>
+                     <h2 class='user'>OTHER ROLES </h2> 
+                   <a ng-click="goToRole(thisChar.SecondRole)"> <h3>{{thisChar.SecondRole}}</h3> </a>
+                    <a ng-click="goToRole(thisChar.ThirdRole)"><h3>{{thisChar.ThirdRole}}</h3></a>
+                    <a ng-click="goToRole(thisChar.FourthRole)"><h3>{{thisChar.FourthRole}}</h3></a>
+                    <a ng-click="goToRole(thisChar.FifthRole)"><h3>{{thisChar.FifthRole}}</h3></a>
                 </div>
             </div>
         </div>

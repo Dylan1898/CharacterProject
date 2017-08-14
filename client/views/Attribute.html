@@ -1,12 +1,13 @@
-<div ng-controller="allRoleController">
-     <h1 class='title'>{{allRole[0].PrimaryRole}} Heroes</h1> 
+
+<div ng-controller="allAttController">
+    <h1 class='title'>{{allAtt[0].Attribute}} Heroes</h1>
     <div class='parent'>
-        <div class='Char' ng-repeat='chars in allRole' id={{chars.Id}}>
+        <div class='Char' ng-repeat='chars in allAtt' id={{chars.Id}}>
             <div>
                 <div class='rolecard grow allHero' id="main">
                     <a ng-click="goToSingle(chars.Id)" href='#single'>
-                        <h1 class='cardName'>{{chars.Name}}</h1>
-
+                     <h1 class='cardName'>{{chars.Name}}</h1>
+                    
                         <div class="imgback">
                             <img class="main" ng-src="{{chars.Image}}"></img>
                         </div>
@@ -16,30 +17,24 @@
                     </a>
                     <!-- </div> -->
                     <div class='textback'>
-
+<a ng-click="goToRole(chars.PrimaryRole)">
                         <h2 class='message'>ROLE</h2>
                         <h3 class='messagetext'> {{chars.PrimaryRole}} </h3>
+</a>
                     </div>
                     <div class='textback'>
 
                         <h2 class='message'>PRIMARY ATTRIBUTE</h2>
-                        <a ng-click="goToAtt(chars.Attribute)">
-                        <img class="attributeimage" ng-src="{{chars.AttributeImage}}" ></img></a>
+                        <img class="attributeimage" ng-src="{{chars.AttributeImage}}" ></img>
                         
                     </div>
                     <div class='textback'>
 
                         <h2 class='message'>OTHER ROLE</h2>
-                       <a ng-click="goToRole(chars.SecondRole)"> <h3 class='messagetext'> {{chars.SecondRole}} </h3></a>
-                        <a ng-click="goToRole(chars.ThirdRole)">
-                            <h3 class='messagetext'> {{chars.ThirdRole}} </h3>
-                        </a>
-                        <a ng-click="goToRole(chars.FourthRole)">
-                            <h3 class='messagetext'> {{chars.FourthRole}} </h3>
-                        </a>
-                        <a ng-click="goToRole(chars.FifthRole)">
-                            <h3 class='messagetext'> {{chars.FifthRole}} </h3>
-                        </a>
+                        <a ng-click="goToRole(chars.SecondRole)"><h3 class='messagetext'> {{chars.SecondRole}} </h3></a>
+                        <a ng-click="goToRole(chars.ThirdRole)"><h3 class='messagetext'> {{chars.ThirdRole}} </h3></a>
+                        <a ng-click="goToRole(chars.FourthRole)"><h3 class='messagetext'> {{chars.FourthRole}} </h3></a>
+                        <a ng-click="goToRole(chars.FifthRole)"><h3 class='messagetext'> {{chars.FifthRole}} </h3></a>
                     </div>
                 </div>
             </div>

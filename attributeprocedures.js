@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var jsonPath = path.join(__dirname, 'data.json');
 
-function getRole(role) {
+function getAtt(Attribute) {
     return new Promise(function(resolve, reject) {
         fs.readFile(jsonPath, 'utf-8', function(err, file) {
             if (err) {
@@ -15,7 +15,7 @@ function getRole(role) {
                 newArr= []
 
             parsed.forEach(function(element) {
-                if (element.PrimaryRole === role || element.SecondRole === role || element.ThirdRole=== role || element.FourthRole=== role || element.FifthRole=== role) {
+                if (element.Attribute === Attribute ) {
                     found = element;
                     newArr.push(found)
                 }
@@ -41,5 +41,5 @@ function getRole(role) {
 }
 
 module.exports={
-    role: getRole
+    att: getAtt
 }

@@ -6,20 +6,26 @@
         <a ng-click="goToSingle(chars.Id)" href='#single'>
             
             <div ng-hi class='grow layer3 allHero' id="main">
-                
+                 <h1 class='cardName'>{{chars.Name}}</h1>
                 <div class="imgback">
                     <img class='main' src="{{chars.Image}}"></img>
                 </div>
-                <div class='textback'>
+                <!-- <div class='textback'>
                     <h2 class='user'>NAME </h2>
-                    <h3 class='username'>{{chars.Name}}</h3>
+                    <h3 class='username'>{{chars.Name}}</h3> -->
         </a>
-        </div>
+        <!-- </div> -->
+        <div class='textback'>
+                             <a ng-click="goToAtt(chars.Attribute)">
+                        <h2 class='message'>PRIMARY ATTRIBUTE</h2>
+                        <img class="attributeimage" ng-src="{{chars.AttributeImage}}"></img>
+                             </a>
+                    </div>
         <div class='textback'>
 
-            <a ng-click="goToRole(chars.Type)" href='#Role'>
-                <h2 class='message'>ROLE</h2>
-                <h3 class='messagetext'> {{chars.Type}} </h3>
+            <a class='attributeimage' ng-click="goToRole(chars.PrimaryRole)" href='#Role'>
+                <h2 class='message'>PRIMARY ROLE</h2>
+                <h3 class='messagetext'> {{chars.PrimaryRole}} </h3>
             </a>
         </div>
         </div>

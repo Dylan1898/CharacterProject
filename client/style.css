@@ -51,7 +51,7 @@ li a:hover {
     background-color: #C62324;
     color: #272727
 }
-div.allHero#main{
+div.allHero{
     width: 27%;
     /*display:inline-block;*/
     float: left;
@@ -62,16 +62,32 @@ div.allHero#main{
     background-color: #272727;
     border:20px solid #C62324;
     border-radius: 15% 15%;
-    
+}    
 
-    
+.rolecard{
+    height:920px
+}    
+.attributeimage{
+    margin-top: -22px;
+    height: 30px;
+    width: 30px;
 }
+
+
 .main{
     
     padding-top: 20%
 }
-
-h1{
+.cardName{
+ color:#C62324;
+ background-color: #575757;
+ border-radius: 20px 20px;
+ width:80%;
+ margin-top: 1em;
+ margin:.3em auto;
+ font-size: 2.6em;
+}
+.title{
     text-align: center;
     padding-top: 1em;
     font-size: 4em;
@@ -91,6 +107,7 @@ h3{
     width:30%
 }
 .textback{
+        margin-top: -12px;
     background-color: #9a9a9a;
     border-radius: 10px 10px 55px 55px
 }
