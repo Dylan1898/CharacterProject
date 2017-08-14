@@ -1,0 +1,26 @@
+<h1>DOTA 2 Heroes</h1>
+<div class='parent' ng-controller="allGetController">
+    <div class=' Char' ng-repeat='chars in allChars' id={{char.Id}}>
+
+
+        <a ng-click="goToSingle(chars.Id)" href='#single'>
+            <div ng-hi class=' grow layer3 allHero' id="main">
+                <div class="imgback">
+                    <img class='main' src="{{chars.Image}}"></img>
+                </div>
+                <div class='textback'>
+                    <h2 class='user'>NAME </h2>
+                    <h3 class='username'>{{chars.Name}}</h3>
+        </a>
+        </div>
+        <div class='textback'>
+
+            <a ng-click="goToRole(chars.Type)" href='#Role'>
+                <h2 class='message'>ROLE</h2>
+                <h3 class='messagetext'> {{chars.Type}} </h3>
+            </a>
+        </div>
+        </div>
+
+    </div>
+</div>

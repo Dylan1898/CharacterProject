@@ -6,7 +6,7 @@
   "dependencies": {
     "angular": "latest",
     "body-parser": "^1.17.2",
-    "express": "latest",
+    "express": "^4.15.4",
     "node": "latest"
   },
   "devDependencies": {},

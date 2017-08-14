@@ -3,72 +3,126 @@
         "Id": 1,
         "Name": "Sandking",
         "Type": "Support",
-        "Image":"https://wallpaperscraft.com/image/sand_king_dota_2_art_deserts_deathly_embrace_94212_300x300.jpg"
+        "Image": "https://wallpaperscraft.com/image/sand_king_dota_2_art_deserts_deathly_embrace_94212_300x300.jpg"
     },
- {
+    {
         "Id": 2,
         "Name": "Anti-mage",
         "Type": "Carry",
-        "Image":"https://i1.wallpaperscraft.com/image/anti_mage_dota_2_burning_set_94049_300x300.jpg"
+        "Image": "https://i1.wallpaperscraft.com/image/anti_mage_dota_2_burning_set_94049_300x300.jpg"
     },
-
-     {
+    {
         "Id": 3,
         "Name": "Broodmother",
         "Type": "Carry",
-        "Image":"https://wallpaperscraft.com/image/broodmother_dota_2_art_94785_300x300.jpg"
+        "Image": "https://wallpaperscraft.com/image/broodmother_dota_2_art_94785_300x300.jpg"
     },
-     {
+    {
         "Id": 4,
         "Name": "Venomancer",
         "Type": "Support",
-        "Image":"https://wallpaperscraft.com/image/venomancer_dota_2_art_94931_300x300.jpg"
+        "Image": "https://wallpaperscraft.com/image/venomancer_dota_2_art_94931_300x300.jpg"
     },
-     {
+    {
         "Id": 5,
         "Name": "Disruptor",
         "Type": "Support",
-        "Image":"http://i2.wallpaperscraft.com/image/disruptor_dota_2_art_94509_300x300.jpg"
+        "Image": "http://i2.wallpaperscraft.com/image/disruptor_dota_2_art_94509_300x300.jpg"
     },
-     {
+    {
         "Id": 6,
         "Name": "Weaver",
         "Type": "Carry",
-        "Image":"https://i1.wallpaperscraft.com/image/weaver_dota_2_art_infesting_cranium_set_94128_300x300.jpg"
+        "Image": "https://i1.wallpaperscraft.com/image/weaver_dota_2_art_infesting_cranium_set_94128_300x300.jpg"
     },
-     {
+    {
         "Id": 7,
         "Name": "Bloodseeker",
         "Type": "Carry",
         "Image": "https://i1.wallpaperscraft.com/image/bloodseeker_pudge_dota_2_94797_300x300.jpg"
-        },
-     {
+    },
+    {
         "Id": 8,
         "Name": "Huskar",
         "Type": "Initator",
         "Image": "https://i1.wallpaperscraft.com/image/huskar_dota_2_art_95318_300x300.jpg"
     },
-     {
+    {
         "Id": 9,
         "Name": "Warlock",
         "Type": "Support",
-        "Image":"https://lh3.googleusercontent.com/HRz33yZ7MhXRcU9mGhRth2e_1xuHchzQjHW6T-ng-WUTVvspRPt_kjucy5gEdPZ6gLk=w300"
+        "Image": "https://lh3.googleusercontent.com/HRz33yZ7MhXRcU9mGhRth2e_1xuHchzQjHW6T-ng-WUTVvspRPt_kjucy5gEdPZ6gLk=w300"
     },
-     {
+    {
         "Id": 10,
         "Name": "Phantom Lancer",
         "Type": "Pusher",
-        "Image:": "https://wallpaperscraft.com/image/phantom_lancer_dota_2_art_94681_300x300.jpg"
+        "Image": "https://wallpaperscraft.com/image/azwraith_phantom_lancer_art_dota_2_94161_300x300.jpg"
+    },
+    {
+        "Id": 11,
+        "Name": "Juggernaut",
+        "Type": "Carry",
+        "Image": "https://wallpaperscraft.com/image/juggernaut_dota_2_art_95093_300x300.jpg"
+    },
+    {
+        "Id": 12,
+        "Name": "Clockwerk",
+        "Type": "Initator",
+        "Image": "https://i1.wallpaperscraft.com/image/clockwerk_dota_2_art_95198_300x300.jpg"
+    },
+    {
+        "Id": 13,
+        "Name": "Treant Protector",
+        "Type": "Support",
+        "Image": "https://i2.wallpaperscraft.com/image/rooftrellen_treant_protector_dota_2_94129_300x300.jpg"
+    },
+    {
+        "Id": 14,
+        "Name": "Earth Spirit",
+        "Type": "Nuker",
+        "Image": "https://i1.wallpaperscraft.com/image/earth_spirit_dota_2_strength_demon_stone_93720_300x300.jpg"
+    },
+    {
+        "Id": 15,
+        "Name": "Templar Assassin",
+        "Type": "Carry",
+        "Image": "https://i0.wallpaperscraft.com/image/lanaya_templar_assassin_dota_2_art_94337_300x300.jpg"
+    },
+    {
+        "Id": 16,
+        "Name": "Lion",
+        "Type": "Support",
+        "Image": "https://i0.wallpaperscraft.com/image/curse_of_the_malignant_corruption_dota_2_art_93827_300x300.jpg"
+    },
+    {
+        "Id": 17,
+        "Name": "Bounty Hunter",
+        "Type": "Escape",
+        "Image": "https://i2.wallpaperscraft.com/image/gondar_bounty_hunter_dota_2_94410_300x300.jpg"
+    },
+    {
+        "Id": 18,
+        "Name": "Skywrath Mage",
+        "Type": "Support",
+        "Image": "https://i1.wallpaperscraft.com/image/skywrath_mage_cloud_forged_dota_2_art_skywrath_mages_94254_300x300.jpgs://wallpaperscraft.com/image/juggernaut_dota_2_art_95093_300x300.jpg"
+    },
+    {
+        "Id": 19,
+        "Name": "Queen of Pain",
+        "Type": "Carry",
+        "Image": "http://dota2wallpaper.net/wp-content/uploads/2017/02/Queen-of-Pain-Dota-2-Wallpaper-4-300x300.jpg"
+    },
+    {
+        "Id": 20,
+        "Name": "Ursa",
+        "Type": "Carry",
+        "Image": "https://i0.wallpaperscraft.com/image/ursa_dota_2_cryogenic_embrace_set_94046_300x300.jpg"
+    },
+    {
+        "Id": 21,
+        "Name": "Tidehunter",
+        "Type": "Support",
+        "Image": "https://i1.wallpaperscraft.com/image/dota_2_tidehunter_valve_art_100712_300x300.jpg"
     }
-
-
-
-
-
-
-
-
-
-
-
 ]

@@ -5,8 +5,6 @@ var express = require("express")
 var router = express.Router()
 var fs = require('fs');
 var procedures= require('./allprocedures')
-// var path = require('path')
-// var jsonPath = path.join(__dirname, 'data.json');
 router.route('/')
     .get(function (req, res) {
            procedures.all()

@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-resource.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body>
+
+    <ul class='toolbar'>
+        <li><a class="active" href="#api">Home</a></li>
+        <li><a href="#api">All </a></li>
+        <!--<li><a href="#contact">Random </a></li>-->
+
+    </ul>
+    <button ng-click="randomlinks()"> </button>
     <div ng-view></div>
-    <script src="../app.js"></script>
-    <ng-view>
+    <script src="/app.js"></script>
+
 </body>
-</html> 
+
+</html>

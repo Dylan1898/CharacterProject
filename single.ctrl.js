@@ -9,16 +9,18 @@ var procedures= require('./singleprocedures')
 
 // var path = require('path')
 // var jsonPath = path.join(__dirname, 'data.json');
-router.route('/hero/:id')
-    .get(function (req, res) {
-           procedures.all()
+router.route('/:id')
+.get(function (req, res) {
+
+
+    procedures.single((req.params.id))
             .then(function (success) {
                 res.send(success)
             }, function(err) {
                 console.log(err);
                 res.sendStatus(500);
             });
-        
-        console.log('GET')
+    
+        console.log('GET ONE')
     })
     module.exports = router

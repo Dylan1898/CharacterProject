@@ -1,0 +1,25 @@
+<div ng-controller="allRoleController">
+    <h1>{{allRole[0].Type}} Heroes</h1>
+    <div class='parent'>
+        <div class='Char' ng-repeat='chars in allRole' id={{chars.Id}}>
+            <div>
+                <div class=' grow allHero' id="main">
+                    <a ng-click="goToSingle(chars.Id)" href='#single'>
+                        <div class="imgback">
+                            <img class="main" src="{{chars.Image}}"></img>
+                        </div>
+                        <div class='textback'>
+                            <h2 class='user'>NAME </h2>
+                            <h3 class='username'>{{chars.Name}}</h3>
+                    </a>
+                    </div>
+                    <div class='textback'>
+
+                        <h2 class='message'>ROLE</h2>
+                        <h3 class='messagetext'> {{chars.Type}} </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

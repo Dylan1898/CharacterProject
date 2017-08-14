@@ -1,0 +1,134 @@
+
+body{
+    background-color: #575757
+
+}
+a:link{
+    text-decoration: none
+}
+.grow { transition: all .2s ease-in-out;    ;
+} 
+.grow:hover { transform: scale(1.1); box-shadow: 0px 0px 50px white; z-index: 50 }
+.parent:hover > div:hover {
+  opacity: 1.0;
+}
+.parent:hover > div {
+  opacity: 0.6;
+  z-index: -20
+}
+.toolbar{
+   
+    position: fixed;
+    top: 0px;
+    width:100%;
+    z-index: 100
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 14px 14px
+}
+
+li {
+    float: left;
+    font-size: 2em
+}
+
+li a {
+    display: block;
+    color: #C62324;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C62324;
+    color: #272727
+}
+div.allHero#main{
+    width: 27%;
+    /*display:inline-block;*/
+    float: left;
+    margin:1% 1%;
+    text-align: center;
+    border:1px solid black;
+    padding:1em;
+    background-color: #272727;
+    border:20px solid #C62324;
+    border-radius: 15% 15%;
+    
+
+    
+}
+.main{
+    
+    padding-top: 20%
+}
+
+h1{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 4em;
+    color:#C62324
+}
+h2{
+    color: #C62324;
+    /*text-decoration: underline;*/
+    background-color: #575757;
+    border-radius: 10px 10px 20px 20px
+}
+h3{
+    color: #C62324;
+    background-color: #787878;
+    border-radius: 6px 6px 20px 20px ;
+    margin:0 auto;
+    width:30%
+}
+.textback{
+    background-color: #9a9a9a;
+    border-radius: 10px 10px 55px 55px
+}
+.imgback{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ac/ab/be/acabbe92695680d3bb3317d8708ec1a2--old-friends-dota--logo.jpg");
+    background-size: cover;
+    background-position:center;
+    height:500px;
+    width:500px;
+    text-align: center;
+    margin-left: -.7%;
+    margin-top: 5%;
+    border:8px solid #C62324;
+        border-radius: 15% 15%
+
+}
+.singleHero{
+    margin-top: 5%;
+    width: 30%;
+    text-align: center;
+    border:1px solid black;
+    padding:1em;
+    margin-left:auto;   
+    margin-right: auto
+}
+.singlecard{
+    background-color: #272727;
+    border:20px solid #C62324;
+    border-radius: 15% 15%
+}
+.imgbacksingle{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ac/ab/be/acabbe92695680d3bb3317d8708ec1a2--old-friends-dota--logo.jpg");
+    background-size: cover;
+    background-position:center;
+    height:500px;
+    width:500px;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 5%;
+    border:8px solid #C62324;
+        border-radius: 15% 15%
+}

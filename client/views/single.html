@@ -1,0 +1,22 @@
+<div ng-controller="oneController">
+    <div class='Char' n id={{char.Id}}>
+        <div>
+            <div class=' grow singlecard singleHero'>
+                <div class="imgbacksingle">
+                    <img class='main' src="{{thisChar.Image}}"></img>
+                </div>
+                <div class='textback'>
+                    <h2 class='user'>NAME </h2>
+                    <h3 class='username'>{{thisChar.Name}}</h3>
+                </div>
+                <div class='textback'>
+                    <a ng-click="goToRole(thisChar.Type)">
+                        <h2 class='message'>ROLE</h2>
+                        <h3 class='messagetext'> {{thisChar.Type}} </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
