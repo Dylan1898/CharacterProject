@@ -35,7 +35,8 @@ ul {
 
 li {
     float: left;
-    font-size: 2em
+    font-size: 2em;
+    cursor: pointer
 }
 
 li a {

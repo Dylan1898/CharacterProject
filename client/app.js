@@ -1,4 +1,5 @@
 var myApp = angular.module("myApp", ["ngRoute"]);
+var random= Math.round(Math.random() * 21)
 myApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
         .when('/api/', {
@@ -35,6 +36,14 @@ myApp.controller('allGetController', function ($scope, $http, $location, $routeP
                 console.log($location.path)
             })
     }
+        $scope.randomlinks = function (random) {
+     console.log("clicked")
+        $http.get('/api/all/')
+            .then(function () {
+                $location.path('api/single/' + (Math.round(Math.random() * 21)))
+                // id = Math.round(Math.random() * 21)
+            })
+    }
 });
 
 myApp.controller('oneController', function ($scope, $routeParams, $http, $location) {
@@ -51,8 +60,7 @@ myApp.controller('oneController', function ($scope, $routeParams, $http, $locati
             .then(function () {
                 $location.path('api/Role/' + Type)
                 Type = ($location.path('api/Role/' + Type))
-                console.log(role)
-                console.log($location.path)
+                
             })
     }
 });
@@ -79,10 +87,24 @@ myApp.controller('allRoleController', function ($scope, $http, $location, $route
             })
     }
 
-    function randomlinks() {
-        var myrandom = Math.round(Math.random() * 21)
-
-        console.log(myrandom)
-        window.location = 'api/single/' + [myrandom]
-    }
+   
 })
+//  $scope.randomlinks = function (id) {
+//      console.log("clicked")
+//         $http.get('/api/all/')
+//             .then(function () {
+//                 $location.path('api/single/' + id)
+//                 id = Math.round(Math.random() * 21)
+//             })
+//     }
+
+//  randomlinks= function(){
+//         $http.get('/api/all/')
+//         .then(function(){
+//         var myrandom = Math.round(Math.random() * 21)
+
+//         console.log(myrandom)
+//         $location.path  ('/api/single/' + [myrandom])
+    
+//     })
+//     }

@@ -16,9 +16,10 @@
 
 <body>
 
-    <ul class='toolbar'>
+    <ul ng-controller="allGetController" class='toolbar'>
         <li><a class="active" href="#api">Home</a></li>
         <li><a href="#api">All </a></li>
+        <li><a class="pointer" ng-click="randomlinks()" >Random Hero</a></li>
         <li><a href="#api/Role/Carry">Carry </a></li>
         <li><a href="#api/Role/Support">Support </a></li>
         <li><a href="#api/Role/Initiator">Initiator </a></li>
@@ -26,7 +27,7 @@
           <li><a href="#api/Role/Nuker">Nuker </a></li>
 
     </ul>
-    <button ng-click="randomlinks()"> </button>
+        
     <div ng-view></div>
     <script src="/app.js"></script>
 
